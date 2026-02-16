@@ -8,9 +8,9 @@ class Config:
     API_HASH = os.environ.get('API_HASH')
     DATABASE_URL = os.environ.get('DATABASE_URL')
   else:
-    BOT_TOKEN = '' # Get it from https://t.me/BotFather
-    APP_ID = '' # Get it from my.telegram.org/apps
-    API_HASH = '' # Get it from my.telegram.org/apps
+    BOT_TOKEN = '7520810952:AAF39Ltma9kFhe1wNcr7zFQgxx1S-Z7lsbY' # Get it from https://t.me/BotFather
+    APP_ID = '31884914' # Get it from my.telegram.org/apps
+    API_HASH = '7a0b94bbbcfbe70bc30537d34b9c9d03' # Get it from my.telegram.org/apps
     DATABASE_URL = '' # SQL Database URL / Heroku Postgres URL
 
 
